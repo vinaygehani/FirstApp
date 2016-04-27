@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/price_txt"
         android:layout_centerHorizontal="true"
-
+        android:text="0"
         android:padding="8dp"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
@@ -73,17 +73,18 @@
         android:id="@+id/inc_button"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_alignRight="@+id/qty_value"
+        android:layout_toRightOf="@+id/qty_value"
         android:layout_above="@+id/price_txt"
         android:text="+"
         android:textSize="20dp"
+        android:padding="8dp"
         android:onClick="increaseQuantity"/>
 
     <Button
         android:id="@+id/dec_button"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_alignLeft="@+id/qty_value"
+        android:layout_toLeftOf="@+id/qty_value"
         android:layout_above="@+id/price_txt"
         android:text="-"
         android:padding="8dp"

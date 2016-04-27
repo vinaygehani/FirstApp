@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        TextView thanksTextView = (TextView) findViewById(R.id.thanks);
+        TextView thanksTextView = (TextView) findViewById(R.id.thanks_text);
         thanksTextView.setText(thankString + NumberFormat.getCurrencyInstance().format(quantity*5));
     }
 
