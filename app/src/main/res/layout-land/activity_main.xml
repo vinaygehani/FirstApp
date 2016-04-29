@@ -100,7 +100,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="40dp"
-                android:hint="@string/your_name"
+            android:hint="@string/your_name"
             android:inputType="textPersonName"
             android:nextFocusUp="@id/nameField"
             android:nextFocusLeft="@id/nameField"
